@@ -11,7 +11,6 @@ int main()
     int f,c;
     double mt [N] [M];
     double *ptr= &mt [0][0]; //Declaro un puntero que apunta a la matriz.
-    //double *ptr= &mt;
     srand(time(NULL));
     //genero la matriz
     for ( f = 0; f < N; f++)
